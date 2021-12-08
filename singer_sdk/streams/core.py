@@ -68,6 +68,8 @@ METRICS_LOG_LEVEL_SETTING = "metrics_log_level"
 class Stream(metaclass=abc.ABCMeta):
     """Abstract base class for tap streams."""
 
+    __module__ = "singer_sdk"
+
     STATE_MSG_FREQUENCY = 10000  # Number of records between state messages
     _MAX_RECORDS_LIMIT: Optional[int] = None
 

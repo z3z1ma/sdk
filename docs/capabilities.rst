@@ -5,18 +5,18 @@ Plugin Capabilities
 Base Capabilities
 -------------------
 
-========
-Built-in
-========
+==========================
+Built-in Base Capabilities
+==========================
 
 The following capabilities are supported by default.
 
 .. autoattribute:: PluginCapabilities.ABOUT
 .. autoattribute:: PluginCapabilities.STREAM_MAPS
 
-======
-Custom
-======
+========================
+Custom Base Capabilities
+========================
 
 The following capabilities have to be implemented in the plugin.
 
@@ -28,9 +28,9 @@ Tap Capabilities
 
 .. currentmodule:: singer_sdk.helpers.capabilities
 
-========
-Built-in
-========
+=========================
+Built-in Tap Capabilities
+=========================
 
 The following capabilities are supported by default.
 
@@ -39,9 +39,9 @@ The following capabilities are supported by default.
 .. autoattribute:: TapCapabilities.STATE
 .. autoattribute:: TapCapabilities.TEST
 
-======
-Custom
-======
+=======================
+Custom Tap Capabilities
+=======================
 
 The following capabilities have to be implemented in the tap.
 
@@ -51,9 +51,9 @@ The following capabilities have to be implemented in the tap.
 Target Capabilities
 -------------------
 
-======
-Custom
-======
+==========================
+Custom Target Capabilities
+==========================
 
 The following capabilities have to be implemented in the target.
 
@@ -61,4 +61,3 @@ The following capabilities have to be implemented in the target.
 .. autoattribute:: TargetCapabilities.HARD_DELETE
 .. autoattribute:: TargetCapabilities.DATATYPE_FAILSAFE
 .. autoattribute:: TargetCapabilities.RECORD_FLATTENING
-.. autoattribute:: TargetCapabilities.TARGET_SCHEMA

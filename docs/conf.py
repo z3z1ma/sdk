@@ -54,6 +54,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # Show typehints in the signature
 # https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#confval-autodoc_typehints
 autodoc_typehints = "signature"
+autodoc_member_order = "bysource"
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -73,3 +74,8 @@ html_static_path = ["_static"]
 html_css_files = [
     "css/custom.css",
 ]
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}

@@ -17,6 +17,8 @@ class GraphQLStream(RESTStream, metaclass=abc.ABCMeta):
     GraphQL query text.
     """
 
+    __module__ = "singer_sdk"
+
     path = ""
     rest_method = "POST"
 

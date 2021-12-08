@@ -46,6 +46,11 @@ Developer Resources
    capabilities
    faq
 
+.. toctree::
+   :maxdepth: 1
+
+   changelog
+
 Reference
 ---------
    
@@ -67,6 +72,14 @@ Advanced Topics
    porting
    CONTRIBUTING
    implementation/README
+
+Documented Samples
+------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   samples
 
 .. _Singer: https://singer.io
 .. _Singer Spec: https://hub.meltano.com/singer/spec

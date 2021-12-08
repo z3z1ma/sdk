@@ -22,6 +22,8 @@ DEFAULT_PAGE_SIZE = 1000
 class RESTStream(Stream, metaclass=abc.ABCMeta):
     """Abstract base class for REST API streams."""
 
+    __module__ = "singer_sdk"
+
     _page_size: int = DEFAULT_PAGE_SIZE
     _requests_session: Optional[requests.Session]
     rest_method = "GET"

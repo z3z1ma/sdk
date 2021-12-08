@@ -14,7 +14,7 @@ don't have to. If you are building a tap with the SDK and you find a need to dir
 The Singer Spec does not dictate exactly how state needs to be tracked. However, the basic
 structure is documented as follows:
 
-```json
+```js
 {
   "bookmarks": {
     "orders": {

@@ -33,6 +33,8 @@ class Tap(PluginBase, metaclass=abc.ABCMeta):
     plugins.
     """
 
+    __module__ = "singer_sdk"
+
     # Constructor
 
     def __init__(

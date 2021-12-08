@@ -1,5 +1,5 @@
-Reference
-=========
+Class Reference
+===============
 
 .. currentmodule:: singer_sdk
 
